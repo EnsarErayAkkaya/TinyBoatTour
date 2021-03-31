@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89409024cc667ae45a9c4b5a07f7da15, type: 3}
+  m_Name: MapSettings
+  m_EditorClassIdentifier: 
+  width: 50
+  height: 50
+  chunkLength: 25
+  tileSideLength: 1
+  seed: 0
+  maxWaterLevel: 0.468
+  maxSandLevel: 0.527
+  maxGroundLevel: 1
+  tileSettings:
+  - tileType: 0
+    material: {fileID: 2100000, guid: 9c660a3488c303b4ba982755edf3f937, type: 2}
+  - tileType: 1
+    material: {fileID: 2100000, guid: 09028f0b782dc284da5e9c7394853112, type: 2}
+  - tileType: 2
+    material: {fileID: 2100000, guid: 09e96219d0a92d54e9628ce9c3403966, type: 2}
