@@ -7,6 +7,5 @@ public class TileSetting
 {   
     public TileType tileType;
     public Material material;
-
 }
 public enum TileType { Water, Sand, Ground }

@@ -496,6 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapSettings: {fileID: 11400000, guid: 00ddb1807a2bbf9488459315027ac6b0, type: 2}
   mapChunks: []
+  cam: {fileID: 963194227}
   player: {fileID: 1838909627}
 --- !u!4 &1972099994
 Transform:

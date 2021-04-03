@@ -35,7 +35,7 @@ public class MapChunksGenerator
                         }
                     }
                 }                
-                mapChunks.Add(new MapChunk(chunkTiles, chunkCenter));
+                mapChunks.Add(new MapChunk(chunkTiles, chunkCenter, mapChunks.Count));
             }
         }
 
